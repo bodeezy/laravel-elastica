@@ -1,5 +1,5 @@
 <?php
-namespace Srtfisher\LaravelElastica;
+namespace bodeezy\LaravelElastica;
 
 use Elastica\Client;
 use Illuminate\Support\ServiceProvider;
@@ -26,7 +26,7 @@ class LaravelElasticaServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('srtfisher/laravel-elastica');
+		$this->package('bodeezy/laravel-elastica');
 	}
 
 	/**
@@ -45,7 +45,7 @@ class LaravelElasticaServiceProvider extends ServiceProvider {
 		$this->app->booting(function()
 		{
 			$loader = AliasLoader::getInstance();
-			$loader->alias('Es', 'Srtfisher\LaravelElastica\LaravelElasticaFacade');
+			$loader->alias('Ef', 'bodeezy\LaravelElastica\LaravelElasticaFacade');
 		});
 	}
 
