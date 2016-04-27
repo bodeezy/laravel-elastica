@@ -14,13 +14,13 @@ composer require srtfisher/laravel-elastica:0.*
 Add it to your providers in `config/app.php`
 
 ```
-'Srtfisher\LaravelElastica\LaravelElasticaServiceProvider'
+'bodeezy\LaravelElastica\LaravelElasticaServiceProvider'
 ```
 
 Add it to your aliases:
 
 ```php
-'Es' => 'Srtfisher\LaravelElastica\LaravelElasticaFacade'
+'Ef' => 'bodeezy\LaravelElastica\LaravelElasticaFacade'
 ```
 
 Okay, you would be good to go.
@@ -30,7 +30,7 @@ You can use the default configuration to connect to your `localhost:9200` server
 Or you could publish the configuration and change the server.
 
 ```bash
-$ php artisan config:publish srtfisher/laravel-elastica
+$ php artisan config:publish bodeezy/laravel-elastica
 ```
 
 The configuration will be passed to the client constructor. Information on Elastica
