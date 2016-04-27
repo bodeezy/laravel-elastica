@@ -1,12 +1,12 @@
 {
-  "name": "srtfisher/laravel-elastica",
+  "name": "bodeezy/laravel-elastica",
   "description": "Laravel 4 Service Provider for Elastica",
   "license": "MIT",
   "keywords": ["elasicsearch", "elasica", "laravel"],
   "authors": [
     {
-      "name": "Sean Fisher",
-      "email": "hi@seanfisher.co"
+      "name": "Bo",
+      "email": "bo@societyinvite.com"
     }
   ],
   "require": {
@@ -18,8 +18,8 @@
   },
   "autoload": {
       "psr-0": {
-        "Srtfisher\\LaravelElastica": "src/",
-        "Srtfisher\\LaravelElastica\\Test": "tests/"
+        "bodeezy\\LaravelElastica": "src/",
+        "bodeezy\\LaravelElastica\\Test": "tests/"
       }
   },
   "minimum-stability": "dev",
