@@ -1,5 +1,5 @@
 <?php
-namespace Srtfisher\LaravelElastica;
+namespace bodeezy\LaravelElastica;
 
 use Illuminate\Support\Facades\Facade;
 
